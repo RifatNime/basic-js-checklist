@@ -11,3 +11,16 @@ function friendsArray(inputArray){
 }
 let friendList = ['Md Rifat Nime','Md Jamil Haque','Rakibul Hasan','ABS Siddik','Tanziul Hakkani Nayak','Rafik Zabbar'];
 console.log(friendsArray(friendList));
+//
+// function largestElement(array){
+//     let largest = array[0];
+//     for (const element of array){
+//         if(element>largest){
+//             largest = element;
+//         }
+//     }
+//     return largest
+// }
+// let array = [3,5,7,8,9,10];
+// console.log(largestElement(array));
+
