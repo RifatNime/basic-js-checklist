@@ -1,8 +1,8 @@
 // 3 book need to print
-// book 1 -200page-2copy
-// book 2- 100page-3copy
-// book-3 300page-3copy
-// totale page need for the maker?
+// book 1 -200page-2copy will be print-200*2
+// book 2- 100page-3copy will be print-100*3
+// book-3 300page-3copy will be print-300*3
+// totale page need for the maker?-1600 page
 
 function pageNumber(book1PageNumber, book2PageNumber, book3PageNumber){
     const pagePerBook1 = 100;

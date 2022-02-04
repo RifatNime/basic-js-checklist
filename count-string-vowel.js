@@ -12,3 +12,18 @@ function vowelsCounter(text) {
 }
 const totalVowel = vowelsCounter('Nime Mahabook Ali');
 console.log('Total Vowel: ', totalVowel);
+
+
+/////new one
+function countVowel(sentance){
+    let count = 0;
+    for (let i = 0; i < sentance.length; i++){
+        let letter = sentance[i].toLowerCase();
+        if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u'){
+            count = count + 1;
+        }
+    }
+    return count;
+}
+let string = "Quick Plus Ai SEarCh";
+console.log(countVowel(string));
